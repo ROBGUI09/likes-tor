@@ -1,8 +1,10 @@
 #!/bin/bash
 
 apt update
-apt install -y which obfs4proxy tor
+apt install -y which obfs4proxy tor python python-pip
+pip install -r requirements.txt
 
+echo пастани один мост сюда
 read bridge
 
 # Define the multiline text you want to append
